@@ -28,7 +28,7 @@ const Form = () => {
     <div className={`card  card2 flex flex-col   w-full`}>
         <div
             className='Div01 text-black flex flex-col items-center justify-center text-lg m-auto mt-10  rounded-xl shadow-xl  w-full h-[60vh] '
-        >
+        >   
             <h1 
                 className='Maintext text-white w-[300px] bg-[#3434DB] rounded-lg mb-20 Font'
             >Calculate Ultimate Load Capacity of Beam column Joint</h1>
