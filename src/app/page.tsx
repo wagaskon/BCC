@@ -23,6 +23,11 @@ export default function Home() {
           <div>          
             <Form/>
           </div>
+          <div>
+          <h1><Link href='https://www.linkedin.com/in/hafiz-ahmed-waqas/' className=' hover:text-yellow-500'>Supervisor: Dr. Hafiz Ahmed Waqas</Link>
+            <br/> Co-Supervisor: Engr. M.Ilyas </h1>
+
+          </div>
           <div className='m-5'>
             <h1>Contributors</h1>
             <ol className='list-decimal pl-7  '>
