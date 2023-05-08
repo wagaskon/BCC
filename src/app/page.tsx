@@ -24,7 +24,7 @@ export default function Home() {
             <Form/>
           </div>
           <div>
-          <h1><Link href='https://www.linkedin.com/in/hafiz-ahmed-waqas/' className=' hover:text-yellow-500'>Supervisor: Dr. Hafiz Ahmed Waqas</Link>
+          <h1><Link href='https://www.linkedin.com/in/hafiz-ahmed-waqas/' className=' hover:text-yellow-500 text-white'>Supervisor: Dr. Hafiz Ahmed Waqas</Link>
             <br/> Co-Supervisor: Engr. M.Ilyas </h1>
 
           </div>
