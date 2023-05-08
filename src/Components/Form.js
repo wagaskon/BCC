@@ -30,11 +30,11 @@ const Form = () => {
             className='Div01 text-black flex flex-col items-center justify-center text-lg m-auto mt-10  rounded-xl shadow-xl  w-full h-[60vh] '
         >
             <h1 
-                className='text-white w-[300px] bg-[#3434DB] rounded-lg mb-20'
+                className='Maintext text-white w-[300px] bg-[#3434DB] rounded-lg mb-20'
             >Calculate Ultimate Load Capacity of Beam column Joint</h1>
-            <form className='flex flex-col justify-center items-center ' onSubmit={handleClick}>
-                <div className='mb-5'>
-                    <label htmlFor="x1" className='text-white'>Column bar area (mm sq)</label><br/>
+            <form className=' Form FX flex flex-col justify-center items-center ' onSubmit={handleClick}>
+                <div className=' MB mb-5'>
+                    <label htmlFor="x1" className='text-white TEXTWHITE'>Column bar area (mm sq)</label><br/>
                     <input
                         type="text"
                         id="x1"
@@ -45,12 +45,12 @@ const Form = () => {
                         
                         onFocus={() => xFocus(true)}
                         onBlur={() => xFocus(false) }
-                        className='  -red-800 w-40 pl-2 rounded-lg h-10'
+                        className=' INPUT w-40 pl-2 rounded-lg h-10'
                             /><br/>
 
                 </div>
-                <div className='mb-5'>
-                    <label htmlFor="x2" className='text-white'>Beam depth (mm)</label><br/>
+                <div className='MB mb-5'>
+                    <label htmlFor="x2" className='text-white TEXTWHITE'>Beam depth (mm)</label><br/>
                     <input
                         type="text"
                         id="x2"
@@ -65,8 +65,8 @@ const Form = () => {
 
                 </div>
 
-                <div className='mb-5'>
-                    <label htmlFor="x3"className='text-white' >Axial load (ton)</label><br/>
+                <div className='MB mb-5'>
+                    <label htmlFor="x3"className='text-white TEXTWHITE' >Axial load (ton)</label><br/>
                     <input
                         type="text"
                         id="x3"
@@ -74,14 +74,14 @@ const Form = () => {
                         autoComplete="off"
                         onChange={(e) => setX3(Number(e.target.value))}
                         required
-                        className=' w-40 pl-2 rounded-lg h-10'
+                        className='INPUT w-40 pl-2 rounded-lg h-10'
                         onFocus={() => xFocus(true)}
                         onBlur={() => xFocus(false) }
                             /><br/>
 
                 </div>
                 <button
-                    className=' bg-[#FFBE0B] w-40 h-10 rounded-lg hover:bg-[#023047] hover:text-white hover:border-2 border-white'
+                    className='btn bg-[#FFBE0B] w-40 h-10 rounded-lg hover:bg-[#023047] hover:text-white hover:border-2 border-white'
                 >Calculate</button>
             </form>
 
