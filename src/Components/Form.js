@@ -103,7 +103,3 @@ const Form = () => {
 }
 
 export default Form
-
-// k = -1.0067211678302     k = 10.0633923018482;
-// x = column bar area (mm )  x = beam depth (mm)   x = axial load (ton)
-
