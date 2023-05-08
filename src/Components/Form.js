@@ -1,7 +1,5 @@
 'use client'
 import React from 'react'
-import Image from 'next/image'
-import { URLs } from'@/Assests/URLs'
 import { useState, useRef, useEffect, useCallback  } from 'react'
 import './FormStyles.css'
 
@@ -26,7 +24,7 @@ const Form = () => {
         xFocus.current.focus();
       }, []);
   return (
-    <div className={`card flex flex-col  bg-[${URLs.BackgroundImage}] w-full`}>
+    <div className={`card flex flex-col   w-full`}>
         <div
             className='text-black flex flex-col items-center justify-center text-lg m-auto mt-10  rounded-xl shadow-xl  w-full h-[60vh] '
         >
