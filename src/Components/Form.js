@@ -42,7 +42,7 @@ const Form = () => {
                         autoComplete="off"
                         onChange={(e) => setX1(Number(e.target.value))}
                         required
-                        
+                        placeholder='0'
                         onFocus={() => xFocus(true)}
                         onBlur={() => xFocus(false) }
                         className=' INPUT w-40 pl-2 rounded-lg h-10'
@@ -61,6 +61,7 @@ const Form = () => {
                         className='INPUT w-40 pl-2 rounded-lg h-10'
                         onFocus={() => xFocus(true)}
                         onBlur={() => xFocus(false) }
+                        placeholder='0'
                             /><br/>
 
                 </div>
@@ -77,6 +78,7 @@ const Form = () => {
                         className='INPUT w-40 pl-2 rounded-lg h-10'
                         onFocus={() => xFocus(true)}
                         onBlur={() => xFocus(false) }
+                        placeholder='0'
                             /><br/>
 
                 </div>
