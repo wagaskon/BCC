@@ -58,7 +58,7 @@ const Form = () => {
                         autoComplete="off"
                         onChange={(e) => setX2(Number(e.target.value))}
                         required
-                        className='w-40 pl-2 rounded-lg h-10'
+                        className='INPUT w-40 pl-2 rounded-lg h-10'
                         onFocus={() => xFocus(true)}
                         onBlur={() => xFocus(false) }
                             /><br/>
