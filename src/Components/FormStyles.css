@@ -57,14 +57,7 @@
     /* font-family: cursive; */
   }
   
-  /* .card:hover {
-    color: rgb(88 199 250 / 100%);
-    transition: color 1s;
-  } */
-  /* .card:hover:before, .card:hover:after {
-    animation: none;
-    opacity: 0;
-  } */
+ 
   
   
   .card::before {
@@ -138,7 +131,9 @@
     color: white;
     width: 300px;
     background-color: #3434DB ;
-    margin-bottom: 5rem/* 80px */;
+    margin-bottom: 4rem/* 80px */;
+    border-radius: .5rem;
+    
   }
 
 .MB{
@@ -179,11 +174,14 @@
 .H1{
   color: black
 }
+.load{
+  margin-bottom: 1rem;
+}
 /* media query */
 @media only screen and (max-width: 600px) {
   .Maintext{
-    width: 150px;
-    margin-bottom: 0;    
+    width: 250px;
+    margin-bottom: 1rem;    
 
   }
   .Font{

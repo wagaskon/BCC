@@ -87,7 +87,7 @@ const Form = () => {
 
         </div>
             <div className=' Div02 FY flex flex-col items-center mb-10'>
-                <h1 className='text-white TEXTWHITE FontMedium'>The Ultimate Load Capacity</h1>
+                <h1 className='text-white load TEXTWHITE FontMedium'>The Ultimate Load Capacity</h1>
                 <div className='Div03 bg-white w-40 h-10 flex flex-col items-center justify-center FX rounded-lg'>
                     <h1 className='H1 text-black'>{y}</h1>
                 </div>
