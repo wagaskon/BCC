@@ -1,4 +1,4 @@
-import Form from '@/components/Form'
+import Form from '@/Components/Form'
 import { Roboto_Slab} from "next/font/google";
 const roboto = Roboto_Slab({ 
   weight: ['400', '700'],
