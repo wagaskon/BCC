@@ -179,3 +179,21 @@
 .H1{
   color: black
 }
+/* media query */
+@media only screen and (max-width: 600px) {
+  .Maintext{
+    width: 150px;
+    margin-bottom: 0;    
+
+  }
+  .Font{
+    font-size: small;
+  }
+  .FontMedium{
+    font-size: medium;
+  }
+  .Div02{
+
+  }
+
+}

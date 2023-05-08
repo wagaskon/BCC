@@ -30,11 +30,11 @@ const Form = () => {
             className='Div01 text-black flex flex-col items-center justify-center text-lg m-auto mt-10  rounded-xl shadow-xl  w-full h-[60vh] '
         >
             <h1 
-                className='Maintext text-white w-[300px] bg-[#3434DB] rounded-lg mb-20'
+                className='Maintext text-white w-[300px] bg-[#3434DB] rounded-lg mb-20 Font'
             >Calculate Ultimate Load Capacity of Beam column Joint</h1>
             <form className=' Form FX flex flex-col justify-center items-center ' onSubmit={handleClick}>
                 <div className=' MB mb-5'>
-                    <label htmlFor="x1" className='text-white TEXTWHITE'>Column bar area (mm sq)</label><br/>
+                    <label htmlFor="x1" className='text-white TEXTWHITE Font'>Column bar area (mm sq)</label><br/>
                     <input
                         type="text"
                         id="x1"
@@ -50,7 +50,7 @@ const Form = () => {
 
                 </div>
                 <div className='MB mb-5'>
-                    <label htmlFor="x2" className='text-white TEXTWHITE'>Beam depth (mm)</label><br/>
+                    <label htmlFor="x2" className='text-white TEXTWHITE .Font'>Beam depth (mm)</label><br/>
                     <input
                         type="text"
                         id="x2"
@@ -66,7 +66,7 @@ const Form = () => {
                 </div>
 
                 <div className='MB mb-5'>
-                    <label htmlFor="x3"className='text-white TEXTWHITE' >Axial load (ton)</label><br/>
+                    <label htmlFor="x3"className='text-white TEXTWHITE Font' >Axial load (ton)</label><br/>
                     <input
                         type="text"
                         id="x3"
@@ -87,7 +87,7 @@ const Form = () => {
 
         </div>
             <div className=' Div02 FY flex flex-col items-center mb-10'>
-                <h1 className='text-white TEXTWHITE'>The Ultimate Load Capacity</h1>
+                <h1 className='text-white TEXTWHITE FontMedium'>The Ultimate Load Capacity</h1>
                 <div className='Div03 bg-white w-40 h-10 flex flex-col items-center justify-center FX rounded-lg'>
                     <h1 className='H1 text-black'>{y}</h1>
                 </div>
